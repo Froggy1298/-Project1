@@ -3,6 +3,7 @@
 #include <vector>
 #include <iostream>
 #include "FileHelper.h"
+#include "CustomHelpers.h"
 
 DossierProfesseur::DossierProfesseur(std::vector<std::string>* file)
 {
@@ -80,7 +81,7 @@ bool DossierProfesseur::supprimer(string name)
 		myStuct::Professeur* previousProf = NULL;
 		while (nowProf != NULL)
 		{
-			if (ToDowner(nowProf->nom) == ToDowner(name))
+			if (nowProf->nameEquals(name))
 			{
 				//This if is usefull only it the teacher is at the index 0
 				if (previousProf == NULL)
@@ -308,14 +309,6 @@ bool DossierProfesseur::displayOne(myStuct::Professeur* prof)
 		return false;
 	}
 
-}
-
-string DossierProfesseur::ToDowner(string toMakeDowner)
-{
-	for (auto& x : toMakeDowner) {
-		x = tolower(x);
-	}
-	return toMakeDowner;
 }
 
 	
