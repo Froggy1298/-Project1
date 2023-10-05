@@ -21,6 +21,8 @@ static class myStuct
             Cours* listeCours;
             Etudiants* listeEtudiants;
             Professeur* suivant;
+
+            bool nameEquals(std::string name, bool caseInsensitive);
         };
 };
 

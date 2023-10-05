@@ -60,15 +60,4 @@ public:
 	/// </summary>
 	/// <returns>if the function worked correctly</returns>
 	static bool displayOne(myStuct::Professeur* prof);
-
-	/// <summary>
-	/// This function is used to put a whole string to lower
-	/// My source used for this what this website:
-	/// https://www.geeksforgeeks.org/tolower-function-in-cpp/
-	/// The name of the function is ToDowner and not ToLower because it is an inside between my friend and I
-	/// </summary>
-	/// <param name="toMakeDowner">the string I want to put in lower case</param>
-	/// <returns>the string in lower case</returns>
-	string ToDowner(string toMakeDowner);
-
 };
