@@ -1,0 +1,8 @@
+﻿  FileHelper.cpp
+C:\Users\jerem\OneDrive\Bureau\StructureDonneeDevoirUn\FileHelper.h(18,2): warning C4091: 'static ' : ignoré à gauche de 'FileHelper' quand aucune variable n'est déclarée
+C:\Users\jerem\OneDrive\Bureau\StructureDonneeDevoirUn\myStuct.h(25,2): warning C4091: 'static ' : ignoré à gauche de 'myStuct' quand aucune variable n'est déclarée
+  StructureDonneeDevoirUn.cpp
+C:\Users\jerem\OneDrive\Bureau\StructureDonneeDevoirUn\myStuct.h(25,2): warning C4091: 'static ' : ignoré à gauche de 'myStuct' quand aucune variable n'est déclarée
+C:\Users\jerem\OneDrive\Bureau\StructureDonneeDevoirUn\FileHelper.h(18,2): warning C4091: 'static ' : ignoré à gauche de 'FileHelper' quand aucune variable n'est déclarée
+  Génération de code en cours...
+  StructureDonneeDevoirUn.vcxproj -> C:\Users\jerem\OneDrive\Bureau\StructureDonneeDevoirUn\x64\Debug\StructureDonneeDevoirUn.exe
